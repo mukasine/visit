@@ -3,4 +3,23 @@
 {% block content %}
 {{block.super}}
 <h1> Welcome to INSTAGRAM</h1>
-{% endblock %}
+<button><a href="{%url 'images'%}">Add</a></button>
+ <div class="container">
+    {% for im in images%}
+   <div class="row">
+     
+     <img src="{{im.image.url}}"  class="img-responsive" alt="">
+   </div>
+
+   <div class="row">
+     <h1>{{im.image_name}}</h1>
+   </div>
+   
+   <div class="row">
+     <h1>{{im.image_caption</h1>
+   </div>
+ <p>{{im.post_date}}</p>
+
+ </div>
+{%endfor%}
+ {% endblock %}
