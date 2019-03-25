@@ -35,7 +35,7 @@ class Image(models.Model):
     image_caption = models.CharField(max_length =200)
     post_date = models.DateTimeField(auto_now=True)
     likes = models.IntegerField(default=0)
-    profile = models.ForeignKey(Profile)
+    profile = models.ForeignKey(Profile,null = True)
 
     class Meta:
         ordering = ('-post_date',)

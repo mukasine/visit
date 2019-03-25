@@ -41,9 +41,9 @@ def image(request):
             image.user = current_user
             image.save()
             
-        else:
+    else:  
             form = ImageForm()
-        return render(request,'new-image.html',{"form":form})
+    return render(request,'new-image.html',{"form":form})
     
 def email(request):
     date = dt.date.today()
