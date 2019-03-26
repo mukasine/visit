@@ -11,14 +11,16 @@
 
             <div class="container">
                     <div class="row">
+                          
                               
                         <h1> WELCOME TO INSTAGRAM</h1>
 
                         
 
 
-        
+                       
         {% for im in images%}
+        
         <div class="col-md-3" id="im"> 
          <img src="{{im.image.url}}"  class="img-responsive" alt="" >
          
@@ -26,12 +28,13 @@
          <p>{{im.image_caption}}</p>
           <p>{{im.post_date}}</p>
         
-        </div>   
+       
+</div> 
     {%endfor%}
 
-</div>
-</div>
 
+</div>
+</div>
 </boby>
 </html>
 {% endblock %}
