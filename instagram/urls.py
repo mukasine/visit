@@ -8,6 +8,8 @@ urlpatterns = [
      url(r'^instagram/profile$',views.profile,name='displayProfile'),
      url(r'^images',views.image,name="images"),
      url(r'^instagram/prof/(\d+)',views.prof,name="prof"),
+     url(r'^instagram/comments/(\d+)',views.comments,name="comments"),
+     url(r'^instagram/comm/(\d+)',views.comm,name="comm")
    
      
 ]

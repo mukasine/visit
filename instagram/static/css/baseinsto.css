@@ -14,10 +14,10 @@ body{
 h1{
     text-align:center;
     background-color:gray;
-    margin-left:2%;
-    margin-right: 1%;
+    margin-left:6%;
+    margin-right:10%;
     padding:2%;
-    width:80%;
+    width:90%;
 }
 /* .dropdown{
     text-align:right;
@@ -31,7 +31,42 @@ h1{
     color:maroon;
 }
 #im{
-    margin-left:2%;
+    margin-left:6%;
     background-color: antiquewhite;
+    margin-bottom:5%;
     
 }
+#index{
+    background-color:rgb(61, 2, 2);
+    width:50%;  
+   
+}
+#prof{
+
+    margin-left:20%;
+    background-color:gray;
+    margin-bottom:5%;
+    width:60%;
+    height:40%;
+}
+#imge{
+    width:100%;
+}
+h2{
+text-align: center;
+color:maroon;
+
+}
+
+#imj{
+    background-color:gray;
+    color:white;
+    margin-top:15%;
+}
+#come{
+    background-color:beige;
+    color:skyblue;
+    width:70%;
+    margin-left:3%;
+}
+

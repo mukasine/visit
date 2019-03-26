@@ -9,8 +9,8 @@
     <boby>
             
 
-            <div class="container">
-                    <div class="row">
+            <div class="container" id="index"   >
+                    <div class="row" >
                           
                               
                         <h1> WELCOME TO INSTAGRAM</h1>
@@ -21,12 +21,12 @@
                        
         {% for im in images%}
         
-        <div class="col-md-2" id="im"> 
-         <img src="{{im.image.url}}"  class="img-responsive" alt="" >
+        <div class="col-md-3" id="im"> 
+        <a href="/instagram/comments\{{im.id}}"> <img src="{{im.image.url}}"  class="img-responsive" alt="" ><br></a>
          
-         <p>{{im.image_name}}</p>
-         <p>{{im.image_caption}}</p>
-          <p>{{im.post_date}}</p>
+         <p>Name:{{im.image_name}}</p>
+         <p>Caption:{{im.image_caption}}</p>
+          <p>Post-Date:{{im.post_date}}</p>
         
        
 </div> 
