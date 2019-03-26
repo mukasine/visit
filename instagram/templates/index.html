@@ -2,6 +2,36 @@
 
 {% block content %}
 {{block.super}}
-<h1> Welcome to INSTAGRAM</h1>
-<button><a href="{%url 'images'%}">Add</a></button>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <boby>
+            
+
+            <div class="container">
+                    <div class="row">
+                              
+                        <h1> WELCOME TO INSTAGRAM</h1>
+
+                        
+
+
+        
+        {% for im in images%}
+        <div class="col-md-3" id="im"> 
+         <img src="{{im.image.url}}"  class="img-responsive" alt="" >
+         
+         <p>{{im.image_name}}</p>
+         <p>{{im.image_caption}}</p>
+          <p>{{im.post_date}}</p>
+        
+        </div>   
+    {%endfor%}
+
+</div>
+</div>
+
+</boby>
+</html>
 {% endblock %}
