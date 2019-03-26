@@ -1,0 +1,35 @@
+.navbar{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR146ARr6Mlzw2vT3wWp0xc_FKPNVJPGqdKDIaepidPMlmkT1rwg);
+    padding:1%;
+    background-repeat: no-repeat;
+    border:1% solid yellow;
+    background-color: skyblue;
+}
+body{
+  background-image:url(https://images.pexels.com/photos/134074/pexels-photo-134074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);  
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+h1{
+    text-align:center;
+    background-color:gray;
+    margin-left:2%;
+    margin-right: 1%;
+    padding:2%;
+    width:80%;
+}
+.dropdown{
+    text-align:right;
+    background-color:rgb(117, 113, 113);
+    color:maroon;
+    font-size:150%;
+    margin-left:180%;
+}
+.navbar-right{
+
+    font-size:150%;
+    color:maroon;
+}
+#im{
+    margin-left:2%;
+}
