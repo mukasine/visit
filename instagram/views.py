@@ -28,6 +28,7 @@ def profile(request):
              profile = form.save(commit=False)
              profile.user = current_user
              profile.save()
+        return redirect("home")
        
     else:
             form = ProfileForm()
@@ -41,7 +42,7 @@ def image(request):
             image = form.save(commit=False)
             image.user = current_user
             image.save()
-            
+        return redirect("home")    
     else:  
             form = ImageForm()
     return render(request,'new-image.html',{"form":form})
