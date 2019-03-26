@@ -1,14 +1,15 @@
 .navbar{
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR146ARr6Mlzw2vT3wWp0xc_FKPNVJPGqdKDIaepidPMlmkT1rwg);
-    padding:1%;
+    
     background-repeat: no-repeat;
-    border:1% solid yellow;
+    background-position: right top;
+    padding:1%;
     background-color: skyblue;
 }
 body{
   background-image:url(https://images.pexels.com/photos/134074/pexels-photo-134074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);  
-  background-repeat:no-repeat;
-  background-size: 100% 100%;
+  background-repeat: repeat-x;
+  background-position:cover;
 }
 h1{
     text-align:center;
@@ -18,12 +19,12 @@ h1{
     padding:2%;
     width:80%;
 }
-.dropdown{
+/* .dropdown{
     text-align:right;
     color:maroon;
     font-size:150%;
     margin-left:180%;
-}
+} */
 .navbar-right{
 
     font-size:150%;
@@ -31,4 +32,7 @@ h1{
 }
 #im{
     margin-left:2%;
+    background-color: antiquewhite;
+    padding:0%;
+    margin-bottom:-20%;
 }
