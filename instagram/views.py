@@ -10,7 +10,8 @@ from django.contrib.auth.models import User
 # Create your views here.
 @login_required(login_url='/accounts/login/')
 def welcome(request):
-    return render(request, 'index.html')
+    images=Image.objects.all() 
+    return render(request, 'index.html',{"images":images})
 @login_required(login_url='/accounts/login/')
 def prof(request,id):
     user = User.objects.get(id = id)
@@ -44,7 +45,8 @@ def image(request):
     else:  
             form = ImageForm()
     return render(request,'new-image.html',{"form":form})
-    
+
+
 def email(request):
     date = dt.date.today()
     news = Profile.todays_news()
