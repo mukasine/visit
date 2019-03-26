@@ -8,20 +8,22 @@
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-          <div class="navbar-header">
+            <div class="navbar-right">
             <a class="navbar-brand" href="{% url 'home' %}">Home</a>
-          </div>
+          <button> <a class="navbar-band" href="{%url 'images'%}">Add</a></button>
+        </div>
+        
                 <!-- Adding a search form  -->
 
                   <div class="col-sm-6 col-md-6">
                     {% if user.is_authenticated %}
                     <ul>
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-expanded="false">Account
+                        <a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-expanded="false" id="account">Account
                                   <span class="caret"></span>
                               </a>
                         <ul class="dropdown-menu" role="menu">
-                          <li>
+                          <li >
                             <a href="{%url 'home'%}">Home</a>
                           </li>
                           
