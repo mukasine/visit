@@ -7,7 +7,8 @@ urlpatterns = [
      url('^$',views.welcome,name = 'home'),
      url(r'^instagram/profile$',views.profile,name='displayProfile'),
      url(r'^images',views.image,name="images"),
-     url(r'^instagram/prof/(\d+)',views.prof,name="prof")
+     url(r'^instagram/prof/(\d+)',views.prof,name="prof"),
+   
      
 ]
 if settings.DEBUG:
