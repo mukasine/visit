@@ -1,13 +1,6 @@
-.navbar{
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR146ARr6Mlzw2vT3wWp0xc_FKPNVJPGqdKDIaepidPMlmkT1rwg);
-    
-    background-repeat: no-repeat;
-    background-position: right top;
-    padding:1%;
-    background-color: skyblue;
-}
+
 body{
-  background-image:url(https://images.pexels.com/photos/134074/pexels-photo-134074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);  
+  background-image:url(https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);  
   background-repeat: repeat-x;
   background-size:cover;
 }
@@ -36,18 +29,19 @@ h1{
     margin-bottom:5%;
     
 }
-#index{
+/* #index{
     background-color:rgb(61, 2, 2);
     width:50%;  
    
-}
+} */
 #prof{
 
     margin-left:20%;
-    background-color:gray;
+    background-color:rgb(90, 1, 1);
     margin-bottom:5%;
     width:60%;
     height:40%;
+    color:white;
 }
 #imge{
     width:100%;
@@ -59,9 +53,9 @@ color:maroon;
 }
 
 #imj{
-    background-color:gray;
+    background-color:rgb(53, 3, 3);
     color:white;
-    margin-top:15%;
+    margin-top:10%;
 }
 #come{
     background-color:beige;

@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Instagram Profile</title>
+  
   {{form.media}}
 
 {% block styles %} {% bootstrap_css %}
@@ -20,7 +20,7 @@
 <body>
 <div class="container" id="imj" >
     <div class="row" >
-    <h1> WELCOME TO INSTAGRAM</h1>
+    
   <form  action="{%url 'displayProfile'%}" method="post" enctype="multipart/form-data">
     {%csrf_token%}
 
